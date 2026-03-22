@@ -20,7 +20,7 @@ jobs:
           
       - name: Build custom gcloud
         run: |
-          go install github.com/VikFreeze/gcloud@latest
+          go install github.com/vikFreeze/gcloud@latest
           # Verify the binary is in PATH
           echo "gcloud version:"
           gcloud --version
